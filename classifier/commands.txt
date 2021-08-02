@@ -1,0 +1,7 @@
+python train.py  --model-dir models/gps_lock_resnet18/ --resume models/gps_lock_resnet18/model_best.pth.tar --epochs 500 /media/ajithbalakrishnan/external/Dataset/freelancer/gps_lock_v2
+
+ python train.py --arch=resnet50 --resume=/home/ajithbalakrishnan/vijnalabs/My_Learning/my_workspace/jetson_pytorch-classification/checkpoint.pth.tar --epochs=150 --model-dir=models/gps-lock/ data/gps_lock_smallest/
+ 
+ python train.py --arch=resnet18 --model-dir=models/gps_lock_resnet18/ --epochs=500  data/gps_lock_v2/
+ 
+python3 onnx_export.py --model-dir=models/<YOUR-MODEL>
