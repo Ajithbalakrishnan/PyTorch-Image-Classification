@@ -11,6 +11,7 @@ PyTorch Image classification on ResNet,VGG,Mobilenet versions. This Repo also co
 * Numpy
 * Scipy
 
+Or else try to create an conda env.(Prefferd method)
 ```bash
 conda env create -f classifier/backup_env.yml
 ```
