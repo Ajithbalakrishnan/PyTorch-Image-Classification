@@ -2,6 +2,25 @@
 PyTorch Image classification on ResNet,VGG,Mobilenet versions. This Repo also covers the Jetson Implementation
 
 
+## Requirements
+
+* Ubuntu (It's only tested on Ubuntu, so it may not work on Windows.)
+* Python >= 3.7
+* PyTorch >= 1.9.0
+* torchvision
+* Numpy
+* Scipy
+
+```bash
+conda env create -f classifier/backup_env.yml
+```
+
+# Classifier
+  Classifier contains the training script for the Image classification.
+  
+  # Dataset 
+    Dataset 
+
 Thanks To 
 
 
