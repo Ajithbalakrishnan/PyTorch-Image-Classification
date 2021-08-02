@@ -18,9 +18,8 @@ conda env create -f classifier/backup_env.yml
 # Classifier
   Classifier contains the training script for the Image classification.
   
-  # Dataset 
+  # Dataset Structure
     Dataset should be structured like below,
-    
    
        data
             train
