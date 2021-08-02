@@ -21,7 +21,7 @@ conda env create -f classifier/backup_env.yml
   # Dataset 
     Dataset should be structured like below,
     
-    ```bash
+   
        data
             train
                car
@@ -38,7 +38,7 @@ conda env create -f classifier/backup_env.yml
                  1.jpeg
                 bike
                  1.jpeg
-     ```
+ 
     
 
 Thanks To 
